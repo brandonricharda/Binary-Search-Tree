@@ -17,7 +17,6 @@ class Tree
     attr_accessor :root
 
     def initialize(array)
-        @stored_array = array
         @root = build_tree(array)
     end
 
